@@ -8,6 +8,10 @@ const {
   updateUser,
 } = require("../controllers/index.controller");
 
+router.get("/", (req, res) => {
+  res.send("Welcome to the API");
+});
+
 router.get("/users", getUsers);
 router.get("/users/:id", getUserById);
 router.post("/users", createUser);
