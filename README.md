@@ -1,2 +1,2 @@
 # node-postgres
-RESTapi with node, express, mongoDB and postgres
+RESTapi with node, express and postgres
